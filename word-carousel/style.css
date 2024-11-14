@@ -24,7 +24,7 @@ body {
 
 @keyframes love-things {
   0% {
-    content: " trening";
+    content: " trainig";
   }
   25%{
     content: " coding";
@@ -36,6 +36,6 @@ body {
     content: " dogs";
   } 
   100%{
-    content: " trening";
+    content: " training";
   }
 }
