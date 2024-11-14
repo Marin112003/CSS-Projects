@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(200, 200, 200);
+}
+
+.flag-container{
+    height: 400px;
+    width: calc(400px * 3/2);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-color{
+    height: calc(400px * 3/5);
+    width: calc(400px * 3/5);
+    background-color: red;
+    border-radius: 50%;
+}

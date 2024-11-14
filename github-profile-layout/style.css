@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(26, 26, 39);
+}
+
+.github-container{
+    padding: 30px;
+    margin: 100px auto;
+    background-color: rgb(31, 30, 54);
+    color: White;
+    max-width: 400px;
+    min-height: 250px;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.profile-name P{
+    position: relative;
+    bottom: 20px;
+}
+
+p{
+    color: rgb(187, 187, 187);
+}
+
+button{
+    background-color: rgb(38, 38, 54);
+    color: white;
+    width: 100%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 6%;
+}
+
+button:hover{
+    background-color: rgb(51, 51, 63);
+    border: 1px solid white;
+}

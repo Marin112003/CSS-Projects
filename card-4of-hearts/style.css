@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Play", sans-serif;
+}
+
+.card{
+    position: relative;
+    height: 380px;
+    width: calc(400px * 2/3);
+    border: 1px solid black;
+    color: red;
+    display: flex;
+    
+}
+
+.left{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 30px;
+}
+
+.upper{
+    position: absolute;
+    display: flex;
+    font-size: 80px;
+    top: 40px;
+    gap: 40px;
+    left: 70px;
+}
+
+
+.lower{
+    position: absolute;
+    display: flex;
+    font-size: 80px;
+    bottom: 40px;
+    transform: rotate(180deg);
+    gap: 40px;
+    right: 60px;
+}
+
+.right{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 30px;
+    transform: rotate(180deg);
+}

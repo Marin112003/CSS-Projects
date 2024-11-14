@@ -1,0 +1,135 @@
+body{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: grey;
+}
+
+.toggle-wrap{
+  position: relative;
+  width: 200px;
+  height: 70px;
+  border: 10px solid black;
+  border-radius: 100px;
+  background-color: white;
+}
+
+input{
+  display: none;
+}
+
+label{
+  height: 60px;
+  width: 60px;
+  background-color: black;
+  position: absolute;
+  border-radius: 50%;
+  left: 8px;
+  bottom: 6px;
+  transition: 0.5s left ease-in-out;
+}
+
+.toggle-input:checked + label{
+  left: 133px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+  body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(133, 133, 133);
+  }
+  
+  .toggle-wrap {
+    width: 180px;
+    height: 80px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .toggle-input {
+    display: none;
+  }
+  
+  label {
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+  }
+  
+  .toggle-input:checked + label {
+    left: 105px;
+  }
+  */

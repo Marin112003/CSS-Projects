@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 650px;
+}
+
+.container{
+    width: 230px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dot{
+    background-color: black;
+    padding: 18px;
+    border-radius: 50%;
+    animation: 1.2s infinite alternate dot-animation;
+}
+
+@keyframes dot-animation{
+   from{
+    background-color: rgb(231, 231, 231);
+   }
+   to{
+    background-color: rgb(43, 43, 43);
+    padding: 20px;
+   }
+}

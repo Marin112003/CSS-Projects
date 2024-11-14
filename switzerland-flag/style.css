@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-flag{
+    position: relative;
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px rgb(174, 174, 174);
+}
+
+.flag-colors{
+    background-color: white;
+    width: calc(400px * 5/8);
+    height: calc(400px * 3/16);
+}
+
+.row{
+    position: absolute;
+    margin: auto;
+    transform: rotate(90deg);
+}
+
+.column{
+    position: absolute;
+    margin: auto;
+}

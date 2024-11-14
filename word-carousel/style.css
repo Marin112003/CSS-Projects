@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.courasel{
+    display: flex;
+    font-size: 3em;
+}
+
+.love-things::after{
+  animation: 5s love-things linear infinite;
+    content: " dogs";
+    margin: 10px;
+    background-color: rgb(58, 58, 255);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+@keyframes love-things {
+  0% {
+    content: " trening";
+  }
+  25%{
+    content: " coding";
+  }
+  50% {
+    content: " food";
+  }
+  75%{
+    content: " dogs";
+  } 
+  100%{
+    content: " trening";
+  }
+}

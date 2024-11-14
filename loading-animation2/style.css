@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 650px;
+  background-color: rgb(255, 224, 183);
+}
+
+.container {
+  min-width: 150px;
+  display: flex;
+}
+
+.square {
+  padding: 25px;
+  margin: 15px;
+  animation: 2s square-animation infinite ease-in-out;
+  transform: rotate(45deg);
+}
+
+.square:nth-child(1) {
+  background-color: red;
+}
+
+.square:nth-child(2) {
+  background-color: rgb(255, 255, 255);
+}
+
+.square:nth-child(3) {
+  background-color: blue;
+}
+
+@keyframes square-animation {
+  form {
+    transform: rotate(45deg);
+  }
+  to {
+    transform: rotate(135deg);
+  }
+}
