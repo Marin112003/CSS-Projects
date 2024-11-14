@@ -40,7 +40,7 @@ Below are all the projects with a brief description and links to their GitHub Pa
 
 9. **Github profile layout** - This project showcases a GitHub profile layout, demonstrating techniques in CSS positioning and flexbox. I used % to create a responsive and organized layout that adapts to different screen sizes. The most challenging aspect of this project was mastering precise positioning to ensure a clean and balanced design.
 
-- [View project](https://Marin112003.github.io/CSS-Projects/github-profile-layout)
+- [View project](https://Marin112003.github.io/CSS-Projects/‎github-profile-layout)
 
 10. **Japanese flag** - This project demonstrates the design of the Japanese flag using CSS. I used the calc() function to calculate the width of the flag. Specifically, I applied calc() to adjust the height and width of the red circle in the center.
 
